@@ -14,28 +14,26 @@ body {
 /* Navbar */
 .navbar {
   background: #2563eb;
-  padding: 15px 40px;
+  color: white;
+  padding: 15px 25px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
 
-.logo {
-  color: white;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: bold;
+  flex-wrap: wrap;
 }
 
 .nav-links {
   display: flex;
   gap: 20px;
+  list-style: none;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .nav-links a:hover {
@@ -242,75 +240,60 @@ form textarea:focus {
 
 @media (max-width: 768px) {
 
-.home {
-  padding: 15px;
-}
+  .home {
+    padding: 15px;
+  }
 
-.hero h1 {
-  font-size: 1.8rem;
-}
-
-.hero p {
-  font-size: 1rem;
-}
-
-.hero-buttons {
-  flex-direction: column;
-  width: 100%;
-}
-
-.hero-buttons a {
-  width: 100%;
-  text-align: center;
-}
-
-.features {
-  flex-direction: column;
-  align-items: center;
-}
-
-.feature-card {
-  width: 100%;
-  max-width: 350px;
-}
-
- .navbar {
-  flex-direction: column;
-  gap: 10px;
-}
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
 
   .nav-links {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 15px;
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
   }
 
   .hero-buttons {
     flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
-}
 
-.form-subtitle {
-  text-align: center;
-  color: #64748b;
-  margin-bottom: 25px;
-}
+  .hero-buttons a {
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+  }
 
-.form-container label {
-  display: block;
-  margin-bottom: 6px;
-  font-weight: bold;
-}
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.form-title {
-  text-align: center;
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 25px;
-  color: #2563eb;
+  .feature-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-card {
+    width: 100%;
+    max-width: 350px;
+  }
 }
 
 /* ================= HOME PAGE ================= */
