@@ -347,3 +347,57 @@ max-width: 350px;
 flex-direction: column;
 }
 }
+
+.edit-btn {
+  background: #2563eb;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+}
+
+.details-btn {
+  background: #16a34a;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+}
+
+.delete-btn {
+  background: #dc2626;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+.edit-btn:hover {
+  background: #1d4ed8;
+}
+
+.details-btn:hover {
+  background: #15803d;
+}
+
+.status-selected {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.status-pending {
+  color: #f59e0b;
+  font-weight: bold;
+}
+
+.status-rejected {
+  color: #dc2626;
+  font-weight: bold;
+}

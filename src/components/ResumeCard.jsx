@@ -51,7 +51,7 @@ function ResumeCard({ resume, fetchResumes }) {
           onClick={handleFavorite}
           className="submit-btn"
         >
-          ⭐ Favorite
+          ⭐ Add To Favorite
         </button>
 
         <button
